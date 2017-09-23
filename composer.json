@@ -1,0 +1,37 @@
+{
+	"name" : "drexlerux/yii2-drexlerux-base",
+	"description" : "Yii2 Base for drexlerux application",
+	"type" : "yii2-extension",
+	"keywords" : [
+		"yii2",
+		"extension",
+		"drexlerux",
+		"base"
+	],
+	"license" : "MIT",
+	"homepage" : "https://diclearn.com",
+	"support" : {
+		"source" : "https://github.com/drexlerux/yii2-drexlerux-base"
+	},
+	"authors" : [
+		{
+			"name" : "Le Phuong",
+			"email" : "phuong17889@gmail.com"
+		},
+		{
+			"name" : "diclearn",
+			"email" : "loc.xuanphama1t1@gmail.com"
+		}
+	],
+	"require" : {
+		"php" : ">=5.6",
+		"yiisoft/yii2" : "*",
+		"yiisoft/yii2-bootstrap" : "*",
+		"yiisoft/yii2-swiftmailer" : "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"drexlerux\\base\\" : "src/"
+		}
+	}
+}
